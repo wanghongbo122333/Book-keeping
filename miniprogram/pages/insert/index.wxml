@@ -7,6 +7,11 @@
     <label>消费金额</label><input name="money" placeholder="4.50" type="digit"/>
     <label>记账人</label><input name="accounter" placeholder="张三" type="text"></input>
     <label>日期</label>
+    <van-button type="default">默认按钮</van-button>
+<van-button type="primary">主要按钮</van-button>
+<van-button type="info">信息按钮</van-button>
+<van-button type="warning">警告按钮</van-button>
+<van-button type="danger">危险按钮</van-button>
     <view>
   <view>{{year}}年{{month}}月{{day}}日</view>
   <picker-view indicator-style="height: 50px;" style="width: 100%; height: 150px;" value="{{value}}" bindchange="bindChange">

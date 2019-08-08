@@ -10,3 +10,9 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+## 导入vant过程
+- cd Book-Keeping/miniprogram/
+- cnpm i vant -S
+- 打开微信开发程序 ->详情->本地设置->选中使用npm模块
+- 工具->构建npm->构建完成
+- 引入组件方式参考 https://youzan.github.io/vant/#/zh-CN/quickstart
